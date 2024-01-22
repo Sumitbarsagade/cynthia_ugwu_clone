@@ -440,11 +440,13 @@ document.querySelectorAll(".product").forEach(function (elem) {
 function showmenu() {
   console.log("hello")
   document.querySelector("#navlink").style.display = "block"
-  document.querySelector("#navlink").style.transition  = "all ease 3s"
+  
   document.querySelector("#navmenu").style.display = "none"
   document.querySelector(".menubar").style.top = 0
-  document.querySelector(".menubar").style.transition = "all ease 2s"
+ 
 }
+
+
 function showmenusmall() {
   console.log("hello")
   
@@ -455,6 +457,7 @@ function showmenusmall() {
 
 
 
+
 function closemenu() {
   document.querySelector("#navlink").style.display = "none"
   document.querySelector("#navmenusmall").style.display = "block"
@@ -462,6 +465,7 @@ function closemenu() {
   document.querySelector(".menubar").style.transition = "all ease 2s"
 
 }
+
 
 
 
