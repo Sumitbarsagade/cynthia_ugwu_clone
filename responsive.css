@@ -1,0 +1,19 @@
+
+
+@media screen and  (max-width: 600px) {
+  
+
+   #text{
+       display: flex;
+       align-items: center;
+       margin-right:160px;
+       padding-right: 30px;
+       justify-content: center;
+   }
+   
+   #sec_3{
+    opacity:0;
+   }
+
+
+}
